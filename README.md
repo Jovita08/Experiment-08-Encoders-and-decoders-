@@ -65,6 +65,9 @@ D7 = X Y Z
 
 ### PROGRAM 
 /*
+
+ENCODER:
+```
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
 Developed by: A.Virgil Jovita
 RegisterNumber:  212221240062
@@ -76,7 +79,7 @@ or(a,d4,d5,d6,d7);
 or(b,d2,d3,d6,d7);
 or(c,d1,d3,d5,d7);
 endmodule
-*/
+```
 
 ### RTL LOGIC  
 ![output](rtl.png)
@@ -85,10 +88,12 @@ endmodule
 ![output](tym.png)
 
 ### TRUTH TABLE 
-![output](tt.png)
+![output](en.png)
 
 ### PROGRAM
-/*
+```
+DECODER:
+
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
 Developed by: A.Virgil Jovita
 RegisterNumber:  212221240062
@@ -107,6 +112,7 @@ assign d6 = (a&b&~c);
 assign d7 = (a&b&c);
 
 endmodule 
+```
 
 ### RTL LOGIC:
 ![output](log.png)
@@ -115,7 +121,7 @@ endmodule
 ![output](diag.png)
 
 ### TRUTH TABLE:
-![output](tte.png)
+![output](de.png)
 
 ### RESULTS 
 Thus the program to desing encoder and decoder is done.
